@@ -1,0 +1,103 @@
+
+	
+.wrapper{
+	position:relative;
+	width:96%;	
+	margin:0 auto;}
+
+
+
+
+.bg-1 {
+    background:url(../images/bg-1.jpg);  
+    color: #C5C5C5;
+    float: left;
+    line-height: 22px;  
+    min-height: 140px;
+    position: relative;
+	width:96%;
+	margin-top:20px;
+	margin-right:20px;
+}
+
+.bg-first{
+	margin-top:-86px;
+	}
+
+
+.wrapperF{	
+	position:relative;
+	width:480px;	
+	margin:0 auto;
+	}
+
+
+.port-item {
+    display:inline-block;
+    height: 215px;    
+    width: 215px;	
+	border-radius:110px;	
+	overflow:hidden;
+	border:2px solid #fff;
+	background:url(../images/bg-1.jpg);
+	margin-right:10px;}
+	
+
+	
+
+nav {
+		position:absolute;
+		left:282px;
+		min-height: 40px;
+		z-index:1000;
+	 	top: 56px;
+		margin-top:0px;
+	}
+		
+nav ul {
+		width: 180px;
+		padding: 5px 0;
+		position: absolute;		
+		top: 0;
+		left: 0;
+		border: solid 1px #aaa;
+		background:url(../images/icon-menu.png) #fff no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+
+nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+
+nav .current {
+		display: block; /* show only current <li> item */
+	}
+
+nav a {
+		display: block;
+		color:#619908;
+		padding: 5px 5px 5px 32px;
+		text-align: left;
+	}
+
+nav .current a {
+		background: none;
+		
+	}
+
+	/* on nav hover */
+
+nav ul:hover {
+		background-image: none;
+	}
+nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+
+nav ul:hover .current {
+		background: url(images/icon-check.png) no-repeat 10px 7px;
+	}
+	
